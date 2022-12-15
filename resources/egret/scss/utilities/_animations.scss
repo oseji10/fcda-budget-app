@@ -1,0 +1,24 @@
+@keyframes slideDown {
+  from {top: -75px;}
+  to {top: 0px;}
+}
+
+@keyframes fallingLeaves {
+  0% {
+    transform: translate(0, -10px) rotateZ(0deg);
+  }
+
+  100% {
+    transform: translate(0, 230px) rotateZ(360deg);
+  }
+}
+
+@keyframes fallingClouds {
+  0% {
+    transform: translate(0, -10px);
+  }
+
+  100% {
+    transform: translate(0, 230px);
+  }
+}

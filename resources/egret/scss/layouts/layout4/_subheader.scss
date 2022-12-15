@@ -1,0 +1,41 @@
+.app-admin-wrap-layout-4.subheader-fixed {
+  .subheader{
+    left: 0;
+    right: 0;
+    z-index: $z-index-sticky;
+    .subheader-container{
+      max-width: 1240px;
+      margin: 0 auto;
+    }
+    
+    @media (max-width: 1024px) {
+      left: 0;
+    }
+  }
+
+  .ul-inner-layout-4 {
+    padding-top: 140px;
+  }
+  .ul-header-4{
+    box-shadow: none;
+  }
+  @media (max-width: 1024px){
+    .ul-sidebar-4 {
+      top: 135px;
+    }
+  }
+  @media (min-width: 1025px) {
+    .subheader{
+      top: 56px;
+    }
+    
+  }
+  
+  .main-content-body {
+    padding-top: 80px;
+    @media (max-width: 1024px) {
+      padding-top: 90px;
+    }
+    
+  }
+}
